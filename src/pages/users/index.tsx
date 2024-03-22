@@ -1,4 +1,5 @@
 import { Header } from "@/Components/Header";
+import { Pagination } from "@/Components/Pagination";
 import { Sidebar } from "@/Components/Sidebar";
 import {
   Box,
@@ -81,6 +82,8 @@ export default function UserList() {
               </Tr>
             </Tbody>
           </Table>
+
+          <Pagination />
         </Box>
       </Flex>
     </Box>
